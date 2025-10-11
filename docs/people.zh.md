@@ -1,36 +1,76 @@
-## 负责人 Principal Investigator
-<summary><strong>陈佳洲</strong> · 副教授，广东工业大学计算机学院</summary>
+# 团队成员
 
-- **研究方向**：生物医学数据智能分析、复杂生物网络分析、生物信息学、脑科学
-- **教育背景**：
-  1. 2016.09–2020.12 华南理工大学 计算机科学与技术 工学博士（导师：韩国强）
-  2. 2013.09–2016.06 广东工业大学 软件工程 工学硕士（导师：曾碧）
-  3. 2009.09–2013.06 嘉应学院 计算机科学与技术 工学学士
-- **工作经历**：
-  1. 2024.06–至今 广东工业大学计算机学院 副教授
-  2. 2021.01–2024.05 华南理工大学计算机科学与工程学院 博士后（合作导师：蔡宏民）
-  3. 2019.09–2020.09 美国北卡罗来纳大学教堂山分校 访问学者（导师：Guorong Wu）
+## 首席研究员
 
-### 代表论文（第一作者 / 通讯作者）
-1. Fei Qi, Jin Guo, et al., **Multi-Kernel Clustering with Tensor Fusion on Grassmann Manifold for High-dimensional Genomic Data**, *Methods*, 2024.
-2. Xiaoqi Sheng, Hongmin Cai, et al., **Modality-Aware Discriminative Fusion Network for Integrated Analysis of Brain Imaging Genomics**, *IEEE TNNLS*, 2024.
-3. Hongmin Cai, Ranran Deng, et al., **Harmonic Wavelet Neural Network for Discovering Neuropathological Propagation Patterns in Alzheimer’s Disease**, *IEEE JBHI*, 2024.
-4. Hongmin Cai, Xiaoqi Sheng, et al., **Brain Network Classification via Manifold Harmonic Discriminant Analysis**, *IEEE TNNLS*, 2023.
+<div class="focus-card profile-card">
+  <img class="profile-photo" src="/lab-site/assets/屏幕截图 2025-10-11 165613.png" alt="陈佳洲">
+  <div class="profile-meta">
+    <h2>陈佳洲</h2>
+    <p class="profile-tag">生物信息学 · 脑科学 · 机器学习</p>
+    <ul class="profile-list">
+      <li>2024.06 - 至今，广东工业大学，计算机学院，副教授</li>
+      <li>2021.03 - 2024.05，华南理工大学，计算机科学与工程学院，博士后</li>
+      <li>2019.09 - 2020.09，北卡罗来纳大学教堂山分校（美国），访问学者</li>
+      <li>2016.09 - 2020.12，华南理工大学，计算机科学与技术，工学博士</li>
+    </ul>
+  </div>
+</div>
 
-### 荣誉奖励（部分）
-- 2025 广东省科技进步一等奖（排名5）
-- 2023 ACM SIGBIO China 分会新星奖（排名1）
-- 2022 广东省人工智能产业协会科学技术奖自然科学奖一等奖（排名3）
-- 2021 ACM SIGBIO China 分会优博奖（排名1）
+<section class="focus-grid">
+  <article class="focus-card">
+    <h3>学术机构任职</h3>
+    <ul>
+      <li>CCF生物信息学专业委员会 — <strong>执行委员</strong></li>
+      <li>CCF生物信息学青年学者研讨会 BIO-3NEW — <strong>执行委员</strong></li>
+      <li>广东省医师协会人工智能临床应用 — 专委会委员</li>
+    </ul>
+  </article>
+  <article class="focus-card">
+    <h3>学术期刊任职</h3>
+    <ul>
+      <li>Frontiers in Genetics — <strong>Review Editor</strong></li>
+      <li>BIBM 2022, 2023 — 程序委员</li>
+      <li>MICCAI 2023 — 程序委员</li>
+      <li>IEEE TMI, TNNLS, JBHI, Briefing in Bioinformatics, MICCAI, IPMI, BIBM — 审稿人</li>
+    </ul>
+  </article>
+</section>
 
-### 主持项目（在研/已结题）
-- 国家自然科学基金面上项目（2026–2029）：基于图计算的空间多组学数据生成和整合研究
-- 国家重点研发计划课题（2024–2027）：基于生成式算法的亚细胞精度多组学数字孪生细胞技术
-- 国家自然科学基金青年项目（2022–2024）：基于脑网络谐波的阿尔茨海默症早期诊断分析理论与应用
+---
 
-### 学术服务
-- 担任 IEEE TMI、IEEE JBHI、IEEE TNNLS、Briefings in Bioinformatics 等期刊审稿人
-- 中国人工智能学会生物信息学与人工生命专委会执行委员
+## 科研奖励
 
+| 序号 | 奖励名称 | 获奖项目名称 | 排序 | 获奖时间 |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | 广东省人工智能产业协会科学技术奖自然科学奖 一等奖 | 超高维小样本无监督学习及其在生物医学领域的应用 | 3 | 2023 |
+| 2 | ACM SIGBIO CHAPTER 新星奖 | 复杂生物网络分析 | 1 | 2023 |
+| 3 | ACM SIGBIO CHAPTER 优博奖 | 网络分析方法及其疾病标志物识别应用研究 | 1 | 2021 |
+| 4 | 广东省计算机学会优秀论文 二等奖 | 图谐波流形学习方法 | 1 | 2023 |
 
-> 将照片放入 `docs/assets/people/`，在此添加更多团队成员。
+---
+
+## 在读学生
+
+| 年级 | 姓名 | 培养层次 | 学校 | 研究方向 |
+| :--- | :--- | :--- | :--- | :--- |
+| 2025 | 柯炜楠 | 硕士生 | 广东工业大学 | 病理图像-空间组学生成 |
+| 2025 | 蔡国栋 | 硕士生 | 广东工业大学 | 空间多组学数据生成 |
+| 2025 | 陈晓佳 | 硕士生 | 广东工业大学 | 空间组学超分辨率生成 |
+| 2025 | 林彬 | 硕士生 | 广东工业大学 | 细胞通讯轨迹分析 |
+| 2024 | 肖孜茹 | 硕士生 | 华南理工大学 | 图扩散生成网络 |
+| 2024 | 蔡毅 | 硕士生 | 杭州师范大学 | 异构图卷积神经网络 |
+| 2023 | 刘嘉文 | 硕士生 | 华南理工大学 | 深度图流形学习 |
+| 2023 | 谢家辉 | 硕士生 | 华南理工大学 | 跨图匹配神经网络 |
+| 2024 | 黄浩 | 本科生 | 人工智能创新班 | 空间多组学数据分析平台 |
+| 2024 | 吴思涛 | 本科生 | 计科伏羲班 | 空间多组学数据分析平台 |
+
+---
+
+## 已毕业学生
+
+| 入学年份 | 姓名 | 培养层次 | 学校 | 主要成果 | 目前去向 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 2020 | 盛校棋 | 博士生 | 华南理工大学 | 2篇1区论文，1篇2区论文 | 华南理工大学博士后 |
+| 2020 | 刘欢 | 硕士生 | 华南理工大学 | 1篇1区论文，1篇2区论文 | UNC教堂山分校博士 |
+| 2018 | 黄捷 | 硕士生 | 华南理工大学 | 1篇1区论文，1篇3区论文 | 农业银行 |
+| 2021 | 邓冉冉 | 硕士生 | 华南理工大学 | 1篇2区论文 | 中国建设银行 |
