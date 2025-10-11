@@ -1,6 +1,6 @@
-site_name: Jiazhou Chen Lab
+site_name: Jiazhou Chen Lab | Bioinformatics & Brain Science
 site_description: 广东工业大学 生物信息学与脑科学课题组
-site_url: https://mark7399.github.io/lab-site/
+site_url: https://mark7399.github.io/CJZ-labsite/
 theme:
   name: material
   logo: assets/gdut-logo.svg
@@ -8,7 +8,6 @@ theme:
     - navigation.tabs
     - navigation.instant
     - content.code.copy
-    - search.suggest
     - toc.integrate
     - navigation.footer
   language: zh
@@ -24,11 +23,12 @@ theme:
         name: 夜间模式
 
 plugins:
-  - search
   - bibtex:
       bib_file: docs/assets/refs.bib
   - i18n:
       docs_structure: suffix
+      fallback_to_default: false
+      reconfigure_material: true
       languages:
         - locale: zh
           default: true
@@ -44,7 +44,6 @@ plugins:
               - Team: people.zh.md
             - JOIN US:
               - Opportunities: contact.zh.md
-              - Resources: downloads.zh.md
         - locale: en
           name: English
           nav:
@@ -58,7 +57,6 @@ plugins:
               - Team: people.en.md
             - JOIN US:
               - Opportunities: contact.en.md
-              - Resources: downloads.en.md
   - git-revision-date-localized:
       fallback_to_build_date: true
 
