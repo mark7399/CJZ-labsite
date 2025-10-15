@@ -11,7 +11,7 @@
 
 </div>
 <div style="flex: 0 0 200px; text-align: center;">
-<img src="/lab-site/assets/屏幕截图 2025-10-11 183521.png" alt="联系方式" style="max-width: 100%; height: auto; border-radius: 8px;">
+<img src="assets/屏幕截图 2025-10-11 183521.png" alt="联系方式" style="max-width: 100%; height: auto; border-radius: 8px;">
 <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">扫码联系</p>
 </div>
 </div>
