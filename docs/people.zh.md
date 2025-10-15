@@ -3,7 +3,7 @@
 ## 首席研究员
 
 <div class="focus-card profile-card">
-  <img class="profile-photo" src="/lab-site/assets/屏幕截图 2025-10-11 165613.png" alt="陈佳洲">
+<img class="profile-photo" src="../assets/屏幕截图 2025-10-11 165613.png" alt="陈佳洲">
   <div class="profile-meta">
     <h2>陈佳洲</h2>
     <p class="profile-tag">生物信息学 · 脑科学 · 机器学习</p>
