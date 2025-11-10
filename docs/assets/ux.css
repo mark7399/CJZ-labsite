@@ -601,3 +601,27 @@
   margin-bottom: 0.8rem;
   line-height: 1.7;
 }
+
+/* Force hide sidebar and use only top navigation */
+.md-sidebar {
+  display: none !important;
+}
+
+.md-sidebar--primary {
+  display: none !important;
+}
+
+.md-sidebar--secondary {
+  display: none !important;
+}
+
+/* Adjust main content to use full width */
+.md-main__inner {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.md-content {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}

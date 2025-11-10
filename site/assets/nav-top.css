@@ -1,0 +1,74 @@
+/* Top navigation only on desktop: hide sidebars and expand content */
+@media (min-width: 76.1875em) {
+  .md-sidebar--primary,
+  .md-sidebar--secondary {
+    display: none;
+  }
+  .md-main__inner {
+    grid-template-columns: minmax(0, 100%);
+  }
+}
+
+/* Hide the TOC toggle icon in navigation drawer and TOC titles */
+.md-nav__link[for="__toc"] .md-nav__icon,
+.md-nav__title[for="__toc"] .md-nav__icon {
+  display: none !important;
+}
+
+/* Always show top tabs (site navigation) including on mobile */
+.md-tabs {
+  display: block !important;
+}
+
+/* Prevent scrollbars; allow items to shrink when needed */
+@media (max-width: 76.1875em) {
+  .md-tabs__list {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: normal;
+    padding: 0.25rem 0.5rem;
+    gap: 0.25rem;
+  }
+  .md-tabs__item {
+    flex: 0 1 auto;
+  }
+}
+
+/* Hide scrollbars cross-browser when content fits */
+.md-tabs__list::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.md-tabs__list {
+  scrollbar-width: none;
+}
+
+/* Remove the hamburger (drawer toggle) button in the header */
+.md-header__button.md-icon[for="__drawer"] {
+  display: none !important;
+}
+
+/* Place the language selector on the right side of tabs */
+nav.md-tabs .md-grid {
+  position: relative;
+}
+nav.md-tabs .md-select.md-select--tabs {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.35rem;
+}
+
+/* Collapse header contents (remove extra row) but keep structure for layout */
+.md-header__inner {
+  display: none !important;
+}
+
+/* Keep tabs visible and anchored at the top */
+.md-tabs {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: var(--md-default-bg-color);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+}

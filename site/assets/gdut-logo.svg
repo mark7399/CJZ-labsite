@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">GDUT Lab Emblem</title>
+  <desc id="desc">Stylised badge combining Guangdong University of Technology initials with data-driven orbits.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ba0c2f" />
+      <stop offset="55%" stop-color="#8c1bd8" />
+      <stop offset="100%" stop-color="#1e88e5" />
+    </linearGradient>
+    <linearGradient id="orb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#d4d5ff" stop-opacity="0.6" />
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="144" height="144" rx="36" fill="url(#bg)" />
+  <g fill="none" stroke="url(#orb)" stroke-width="6" stroke-linecap="round">
+    <path d="M48 56c18-20 64-20 82 0" opacity="0.85" />
+    <path d="M46 80c18 18 66 18 84 0" opacity="0.6" />
+    <path d="M55 104c14 14 50 14 64 0" opacity="0.45" />
+  </g>
+  <g fill="#ffffff">
+    <circle cx="54" cy="54" r="6" opacity="0.85" />
+    <circle cx="118" cy="56" r="5" opacity="0.8" />
+    <circle cx="64" cy="108" r="5" opacity="0.7" />
+  </g>
+  <g fill="#ffffff" font-family="'Segoe UI', 'Poppins', sans-serif" font-weight="700">
+    <text x="50%" y="94" text-anchor="middle" font-size="44" letter-spacing="4">GDUT</text>
+    <text x="50%" y="122" text-anchor="middle" font-size="16" opacity="0.85">LAB</text>
+  </g>
+</svg>

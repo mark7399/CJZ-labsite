@@ -1,3 +1,0 @@
-# News
-
-No news currently.

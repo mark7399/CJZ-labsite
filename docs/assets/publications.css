@@ -1,0 +1,46 @@
+/* Year tabs bar for Publications page */
+#pub-year-tabs.pub-tabs {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  margin-bottom: 0.25rem;
+}
+
+.pub-tab {
+  background: transparent;
+  border: none;
+  color: var(--md-default-fg-color);
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0.25rem 0.25rem;
+  text-decoration: none;
+}
+.pub-tab:hover {
+  color: var(--md-primary-fg-color);
+}
+.pub-tab.active {
+  color: rgb(152, 48, 167); /* deep purple accent similar to screenshot */
+}
+
+.pub-note {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.9rem;
+  margin: 0.25rem 0 0.75rem 0;
+}
+
+/* Emphasize publication titles that were wrapped by JS */
+.md-typeset .publication-title {
+  font-weight: 600;
+}
+
+/* Remove alphabetic markers like "a." from nested ordered lists inside year sections */
+.pub-year-section ol {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+.pub-year-section ol > li {
+  margin-left: 0;
+}

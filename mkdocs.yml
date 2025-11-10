@@ -1,15 +1,15 @@
-site_name: Jiazhou Chen Lab | Bioinformatics & Brain Science
+site_name: ""
 site_description: 广东工业大学 生物信息学与脑科学课题组
 site_url: https://mark7399.github.io/CJZ-labsite/
 theme:
   name: material
-  logo: assets/gdut-logo.svg
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.instant
     - content.code.copy
-    - toc.integrate
     - navigation.footer
+    - navigation.top
   language: zh
   palette:
     - scheme: default
@@ -35,28 +35,19 @@ plugins:
           name: 中文
           nav:
             - HOME: index.zh.md
-            - RESEARCH:
-              - Overview: research.zh.md
-              - Platforms & Software: projects.zh.md
+            - RESEARCH: research.zh.md
             - NEWS: news.zh.md
-            - PUBLICATIONS: publications.zh.md
-            - MEMBERS:
-              - Team: people.zh.md
-            - JOIN US:
-              - Opportunities: contact.zh.md
-        - locale: en
-          name: English
-          nav:
-            - HOME: index.en.md
-            - RESEARCH:
-              - Overview: research.en.md
-              - Platforms & Software: projects.en.md
-            - NEWS: news.en.md
-            - PUBLICATIONS: publications.en.md
-            - MEMBERS:
-              - Team: people.en.md
-            - JOIN US:
-              - Opportunities: contact.en.md
+            - PUBLICATIONS:
+              - 全部: publications.zh.md
+              - 2024: publications/2024.zh.md
+              - 2023: publications/2023.zh.md
+              - 2022: publications/2022.zh.md
+              - 2021: publications/2021.zh.md
+              - 2020: publications/2020.zh.md
+              - 2019-2016: publications/2019-2016.zh.md
+            - MEMBERS: people.zh.md
+            - JOIN US: contact.zh.md
+            - GALLARY: gallary.zh.md
   - git-revision-date-localized:
       fallback_to_build_date: true
 
@@ -78,5 +69,8 @@ markdown_extensions:
 
 extra_css:
   - assets/ux.css
+  - assets/nav-top.css
+  - assets/publications.css
 extra_javascript:
   - assets/publications.js
+  - assets/nav.js
